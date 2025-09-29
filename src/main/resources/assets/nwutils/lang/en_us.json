@@ -1,0 +1,17 @@
+{
+  "command.nwutils.dialog.syntax": "Incorrect syntax. Use /dialog <start|choose|stop|reload>",
+  "command.nwutils.dialog.not_found": "Dialog '%s' was not found.",
+  "command.nwutils.dialog.started": "Dialog '%s' started for %s.",
+  "command.nwutils.dialog.start_failed": "Failed to start dialog '%s'.",
+  "command.nwutils.dialog.stopped": "Dialog stopped for %s.",
+  "command.nwutils.dialog.stop_missing": "%s does not have an active dialog.",
+  "command.nwutils.dialog.reloaded": "Dialogs reloaded. Available: %s",
+  "command.nwutils.dialog.available": "Available dialogs: %s",
+  "message.nwutils.dialog.prefix": "[Dialogs]",
+  "message.nwutils.dialog.started": "Dialog '%s' started.",
+  "message.nwutils.dialog.stopped": "Dialog '%s' stopped.",
+  "message.nwutils.dialog.button.inactive": "This button is no longer active.",
+  "message.nwutils.dialog.button.used": "This button has already been used.",
+  "message.nwutils.dialog.button.conditions": "You do not meet the requirements for this button yet.",
+  "message.nwutils.dialog.button.hover": "Click to choose"
+}

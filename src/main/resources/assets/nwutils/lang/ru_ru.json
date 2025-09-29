@@ -1,0 +1,17 @@
+{
+  "command.nwutils.dialog.syntax": "Неверный синтаксис. Используйте /dialog <start|choose|stop|reload>",
+  "command.nwutils.dialog.not_found": "Диалог '%s' не найден.",
+  "command.nwutils.dialog.started": "Диалог '%s' запущен для %s.",
+  "command.nwutils.dialog.start_failed": "Не удалось запустить диалог '%s'.",
+  "command.nwutils.dialog.stopped": "Диалог остановлен для %s.",
+  "command.nwutils.dialog.stop_missing": "%s сейчас не проигрывает диалог.",
+  "command.nwutils.dialog.reloaded": "Диалоги перезагружены. Доступно: %s",
+  "command.nwutils.dialog.available": "Доступные диалоги: %s",
+  "message.nwutils.dialog.prefix": "[Диалоги]",
+  "message.nwutils.dialog.started": "Диалог '%s' запущен.",
+  "message.nwutils.dialog.stopped": "Диалог '%s' остановлен.",
+  "message.nwutils.dialog.button.inactive": "Эта кнопка больше не активна.",
+  "message.nwutils.dialog.button.used": "Эта кнопка уже была использована.",
+  "message.nwutils.dialog.button.conditions": "Условия для этой кнопки ещё не выполнены.",
+  "message.nwutils.dialog.button.hover": "Нажмите, чтобы выбрать"
+}
