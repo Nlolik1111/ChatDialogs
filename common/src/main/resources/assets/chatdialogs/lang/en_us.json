@@ -1,0 +1,19 @@
+{
+  "command.chatdialogs.dialog.syntax": "Incorrect syntax. Use /dialog <start|choose|stop|reload>",
+  "command.chatdialogs.dialog.not_found": "Dialog '%s' was not found.",
+  "command.chatdialogs.dialog.started": "Dialog '%s' started for %s.",
+  "command.chatdialogs.dialog.start_failed": "Failed to start dialog '%s'.",
+  "command.chatdialogs.dialog.stopped": "Dialog stopped for %s.",
+  "command.chatdialogs.dialog.stop_missing": "%s does not have an active dialog.",
+  "command.chatdialogs.dialog.choose_player": "Only players can choose dialog options.",
+  "command.chatdialogs.dialog.choose_missing": "You do not have an active dialog choice.",
+  "command.chatdialogs.dialog.reloaded": "Dialogs reloaded. Available: %s",
+  "command.chatdialogs.dialog.available": "Available dialogs: %s",
+  "message.chatdialogs.dialog.prefix": "[Dialogs]",
+  "message.chatdialogs.dialog.started": "Dialog '%s' started.",
+  "message.chatdialogs.dialog.stopped": "Dialog '%s' stopped.",
+  "message.chatdialogs.dialog.button.inactive": "This button is no longer active.",
+  "message.chatdialogs.dialog.button.used": "This button has already been used.",
+  "message.chatdialogs.dialog.button.conditions": "You do not meet the requirements for this button yet.",
+  "message.chatdialogs.dialog.button.hover": "Click to choose"
+}

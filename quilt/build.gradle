@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+base {
+    archivesName = "${mod_id}-quilt"
+}
+
+def fabricRemapJar = project(':fabric').tasks.named('remapJar')
+
+tasks.named('jar', Jar).configure {
+    dependsOn fabricRemapJar
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from(fabricRemapJar.flatMap { it.archiveFile }.map { zipTree(it) })
+    from('src/main/resources')
+}

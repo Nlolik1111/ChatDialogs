@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${mod_group_id}",
+    "id": "${mod_id}",
+    "version": "${version}",
+    "metadata": {
+      "name": "${mod_name}",
+      "description": "${mod_description}",
+      "contributors": {
+        "${mod_authors}": "Owner"
+      },
+      "license": "${mod_license}"
+    },
+    "intermediate_mappings": "official",
+    "entrypoints": {
+      "init": [
+        "ru.nlolik.fabric.ChatDialogsFabric"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "versions": ">=${quilt_loader_version}"
+      },
+      {
+        "id": "minecraft",
+        "versions": ">=1.20 <1.22"
+      },
+      {
+        "id": "quilted_fabric_api",
+        "versions": ">=${quilted_fabric_api_version}"
+      }
+    ]
+  }
+}

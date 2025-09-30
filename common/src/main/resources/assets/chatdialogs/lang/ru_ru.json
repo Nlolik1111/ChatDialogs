@@ -1,0 +1,19 @@
+{
+  "command.chatdialogs.dialog.syntax": "Неверный синтаксис. Используйте /dialog <start|choose|stop|reload>",
+  "command.chatdialogs.dialog.not_found": "Диалог '%s' не найден.",
+  "command.chatdialogs.dialog.started": "Диалог '%s' запущен для %s.",
+  "command.chatdialogs.dialog.start_failed": "Не удалось запустить диалог '%s'.",
+  "command.chatdialogs.dialog.stopped": "Диалог остановлен для %s.",
+  "command.chatdialogs.dialog.stop_missing": "%s сейчас не проигрывает диалог.",
+  "command.chatdialogs.dialog.choose_player": "Только игрок может выбирать варианты диалога.",
+  "command.chatdialogs.dialog.choose_missing": "У вас нет активного выбора диалога.",
+  "command.chatdialogs.dialog.reloaded": "Диалоги перезагружены. Доступно: %s",
+  "command.chatdialogs.dialog.available": "Доступные диалоги: %s",
+  "message.chatdialogs.dialog.prefix": "[Диалоги]",
+  "message.chatdialogs.dialog.started": "Диалог '%s' запущен.",
+  "message.chatdialogs.dialog.stopped": "Диалог '%s' остановлен.",
+  "message.chatdialogs.dialog.button.inactive": "Эта кнопка больше не активна.",
+  "message.chatdialogs.dialog.button.used": "Эта кнопка уже была использована.",
+  "message.chatdialogs.dialog.button.conditions": "Условия для этой кнопки ещё не выполнены.",
+  "message.chatdialogs.dialog.button.hover": "Нажмите, чтобы выбрать"
+}

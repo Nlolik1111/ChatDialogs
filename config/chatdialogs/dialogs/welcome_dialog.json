@@ -1,0 +1,27 @@
+{
+  "id": "welcome_chat",
+  "name": "Welcome Chat",
+  "start": "intro",
+  "nodes": {
+    "intro": {
+      "lines": [
+        "&6[Server] &f- Welcome to the world!",
+        { "text": "&7[You] &f- Glad to be here!", "ticks": 60 }
+      ],
+      "buttons": [
+        {
+          "id": "continue",
+          "text": "&aContinue",
+          "next": "reward"
+        }
+      ]
+    },
+    "reward": {
+      "actions": [
+        { "type": "send_message", "message": "&bEnjoy your adventure!" }
+      ],
+      "close": true,
+      "stop_time": 2
+    }
+  }
+}

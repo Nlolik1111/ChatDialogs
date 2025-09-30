@@ -1,15 +1,49 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        maven {
-            name = 'MinecraftForge'
-            url = 'https://maven.minecraftforge.net/'
+        mavenCentral()
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = 'Fabric'
+                    url = uri('https://maven.fabricmc.net')
+                }
+            }
+            filter {
+                includeGroup('net.fabricmc')
+                includeGroup('fabric-loom')
+            }
+        }
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = 'Quilt'
+                    url = uri('https://maven.quiltmc.org/repository/release')
+                }
+            }
+            filter {
+                includeGroupAndSubgroups('org.quiltmc')
+            }
+        }
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = 'MinecraftForge'
+                    url = uri('https://maven.minecraftforge.net')
+                }
+            }
+            filter {
+                includeGroupAndSubgroups('net.minecraftforge')
+            }
         }
     }
 }
 
 plugins {
-    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
 }
 
-rootProject.name = 'nwutils'
+rootProject.name = 'chatdialogs'
+include('forge')
+include('fabric')
+include('quilt')

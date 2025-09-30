@@ -11,8 +11,9 @@ displayName="${mod_name}"
 updateJSONURL=""
 credits=""
 authors="${mod_authors}"
-description="The ChatDialogs dialog runtime for Forge 1.20.1 lets you build branching conversations, trigger Minecraft or mod commands, and react to in-game events."
-logoFile="assets/chatdialogs/icon.png"
+description='''
+${mod_description}
+'''
 
 displayTest="MATCH_VERSION"
 

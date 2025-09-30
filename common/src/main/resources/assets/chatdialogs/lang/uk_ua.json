@@ -1,0 +1,19 @@
+{
+  "command.chatdialogs.dialog.syntax": "Невірний синтаксис. Використовуйте /dialog <start|choose|stop|reload>",
+  "command.chatdialogs.dialog.not_found": "Діалог '%s' не знайдено.",
+  "command.chatdialogs.dialog.started": "Діалог '%s' запущено для %s.",
+  "command.chatdialogs.dialog.start_failed": "Не вдалося запустити діалог '%s'.",
+  "command.chatdialogs.dialog.stopped": "Діалог зупинено для %s.",
+  "command.chatdialogs.dialog.stop_missing": "%s зараз не програє діалог.",
+  "command.chatdialogs.dialog.choose_player": "Лише гравці можуть обирати варіанти діалогу.",
+  "command.chatdialogs.dialog.choose_missing": "У вас немає активного вибору діалогу.",
+  "command.chatdialogs.dialog.reloaded": "Діалоги перезавантажено. Доступно: %s",
+  "command.chatdialogs.dialog.available": "Доступні діалоги: %s",
+  "message.chatdialogs.dialog.prefix": "[Діалоги]",
+  "message.chatdialogs.dialog.started": "Діалог '%s' запущено.",
+  "message.chatdialogs.dialog.stopped": "Діалог '%s' зупинено.",
+  "message.chatdialogs.dialog.button.inactive": "Ця кнопка більше не активна.",
+  "message.chatdialogs.dialog.button.used": "Цю кнопку вже було використано.",
+  "message.chatdialogs.dialog.button.conditions": "Умови для цієї кнопки ще не виконано.",
+  "message.chatdialogs.dialog.button.hover": "Натисніть, щоб обрати"
+}
